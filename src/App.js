@@ -15,8 +15,9 @@ import Default from "./pages/Default";
 
 function App() {
   return (
-    <div>
+    <div className="Container">
       <h1>Routes</h1>
+      <button type="button" class="btn btn-primary">Prueba boton Bootstrap</button>
       <Routes>
         <Route path="/" element={<Layout />}>
            <Route path="/" element={<Home />}/>
