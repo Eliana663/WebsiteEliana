@@ -1,5 +1,5 @@
 
-import './App.css';
+import './index.css';
 import { Footer }  from './Footer';
 import { Routes, Route } from 'react-router-dom'
 import Layout from "./pages/Layout";
@@ -16,9 +16,7 @@ import Default from "./pages/Default";
 function App() {
   return (
     <div className="Container">
-      <h1>Routes</h1>
-      <button type="button" class="btn btn-primary">Prueba boton Bootstrap</button>
-      <Routes>
+       <Routes>
         <Route path="/" element={<Layout />}>
            <Route path="/" element={<Home />}/>
            <Route path="about" element={<About />}/>
@@ -31,8 +29,7 @@ function App() {
        
       </Routes>
         <Footer>
-        <Footer/>
-      </Footer>
+        </Footer>
     </div>
   );
 }
