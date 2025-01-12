@@ -1,10 +1,10 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet} from "react-router-dom";
 
 
 
 const Layout = () => {
 return <div class="layout">
-         <nav class="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: '#483D8B'}}>
+         <nav class="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: '#0D024F'}}>
             <a class="navbar-brand" href="/">Eliana Torres</a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>

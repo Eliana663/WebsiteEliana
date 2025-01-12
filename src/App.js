@@ -10,12 +10,17 @@ import Skills from "./pages/Skills"
 import WorkExperience from "./pages/WorkExperience"
 import Home from "./pages/Home"
 import Default from "./pages/Default";
+import background from "./assets/img/rosa-azul.jpg"
+import './index.css';
 
 
 
 function App() {
   return (
-    <div className="Container">
+    
+
+    <div id="contenedorPrincipal" style={{ backgroundImage: `url(${background})` }} className="Container">
+    <div >
        <Routes>
         <Route path="/" element={<Layout />}>
            <Route path="/" element={<Home />}/>
@@ -27,10 +32,17 @@ function App() {
            <Route path="*" element={<Default />}/>
            </Route>
        
+  
       </Routes>
+      </div>
+
+
+      <div>
         <Footer>
         </Footer>
     </div>
+    </div>
+    
   );
 }
 
