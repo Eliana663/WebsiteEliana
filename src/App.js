@@ -10,7 +10,7 @@ import Skills from "./pages/Skills"
 import WorkExperience from "./pages/WorkExperience"
 import Home from "./pages/Home"
 import Default from "./pages/Default";
-import background from "./assets/img/rosa-azul.jpg"
+import background from "./assets/img/fondo1.jpg"
 import './index.css';
 
 
@@ -18,7 +18,7 @@ import './index.css';
 function App() {
   return (
     
-
+    
     <div id="contenedorPrincipal" style={{ backgroundImage: `url(${background})` }} className="Container">
     <div >
        <Routes>

@@ -6,25 +6,97 @@
 }
 
 #contenedorPrincipal {
-  height: 100%;
+ 
   color: white;
+  background-attachment: fixed;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+ 
+   
 }
 
 #pensamiento {
   width: 100vw;
-  height: 100vh;
+  height: 35vh;
   display: flex;
   align-items: last baseline;
-  justify-content: right;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 100px;
+  font-style: italic;
+  font-family: cursive, 'Arial Narrow', Arial, sans-serif;
   
-  
+   
 
 }
-#codigoBinario {
-  
-  font-family: monospace;
-  display:grid;
-  grid-column: auto;
 
+#textoHome {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+
+
+}
+
+#eliana {
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+#footer {
+
+  font-size: 25px;
+  background-color: #252850;
+  position: sticky;
+  left: 700px;
+  bottom: 0px;
+ 
+   
+}
+
+#parrafoFooter {
+
+  margin-bottom: 50px;
+}
+
+div.layout {
+
+  font-size: 28px;
+  margin-left: 30px;
+  
+  
+}
+
+.tituloAbout {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.educacion {
+  display: flex;
+  margin-bottom: 100px;
+  background-color: #252850;
+ flex-direction: row;
+ flex: 1;
+  
+ 
+
+   
+}
+
+.estudios {
+  display: flex;
+  flex-direction: column;
   
 }
