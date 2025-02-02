@@ -14,10 +14,7 @@ const Home = () => {
   <p> Java | React JS | Javascript | CSS | HTML</p>
   </div>
   <h5 id="pensamiento">"Las que conducen y arrastran al mundo no son las máquinas, sino las ideas" (Victor Hugo) </h5>
-  
-  
-
-          
+           
   </>
   )
 }

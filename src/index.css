@@ -9,10 +9,12 @@
  
   color: white;
   background-attachment: fixed;
+  background-position: center center;
   min-height: 100px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  
 
 
  
@@ -26,7 +28,7 @@
   align-items: last baseline;
   font-size: 20px;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 450px;
   font-style: italic;
   font-family: cursive, 'Arial Narrow', Arial, sans-serif;
   
@@ -102,7 +104,10 @@
 font-size: 23px;
 margin-left: 50px;
 justify-content: center;
-text-align: justify
+text-align: justify;
+margin-bottom: 170px;
+margin-top: 40px;
+
 }
 
 #fotoEli {

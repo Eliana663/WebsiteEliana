@@ -26,7 +26,7 @@ return <div >
                         <a class="nav-link" href="Projects">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Skills">Librerí<aside></aside></a>
+                        <a class="nav-link" href="Skills">Librerías</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="WorkExperience">Experiencia Laboral</a>

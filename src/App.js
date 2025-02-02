@@ -6,7 +6,7 @@ import Layout from "./pages/Layout";
 import About from "./pages/About"
 import Education from "./pages/Education"
 import Projects from "./pages/Projects"
-import Skills from "./pages/Skills"
+import Libraries from "./pages/Libraries"
 import WorkExperience from "./pages/WorkExperience"
 import Home from "./pages/Home"
 import Default from "./pages/Default";
