@@ -5,7 +5,7 @@ import '../index.css';
 
 const Layout = () => {
 return <div >
-         <nav class="navbar-fixed-top navbar navbar-expand-lg navbar-dark " style={{backgroundColor: '#252850'}} >
+         <nav class="navbar-fixed-top navbar navbar-expand-lg navbar-dark " style={{backgroundColor: '#252850', fontSize: '20px'}} >
             <a class="navbar-brand" href="/">Eliana Torres</a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@ return <div >
                         <a class="nav-link" href="Projects">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Skills">Habilidades</a>
+                        <a class="nav-link" href="Skills">Librerí<aside></aside></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="WorkExperience">Experiencia Laboral</a>

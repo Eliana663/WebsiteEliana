@@ -21,10 +21,10 @@
 
 #pensamiento {
   width: 100vw;
-  height: 35vh;
+  height: 10vh;
   display: flex;
   align-items: last baseline;
-  font-size: 25px;
+  font-size: 20px;
   justify-content: center;
   margin-bottom: 100px;
   font-style: italic;
@@ -36,7 +36,7 @@
 
 #textoHome {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   font-weight: 400;
 
@@ -54,31 +54,23 @@
 
 #footer {
 
-  font-size: 25px;
+  font-size: 20px;
   background-color: #252850;
   position: sticky;
   left: 700px;
   bottom: 0px;
- 
-   
+    
 }
 
 #parrafoFooter {
 
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
-div.layout {
-
-  font-size: 28px;
-  margin-left: 30px;
-  
-  
-}
-
-.tituloAbout {
+.titulos {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -86,17 +78,37 @@ div.layout {
 .educacion {
   display: flex;
   margin-bottom: 100px;
-  background-color: #252850;
- flex-direction: row;
- flex: 1;
-  
+  flex-direction: row;
  
 
-   
+     
 }
 
 .estudios {
+
   display: flex;
   flex-direction: column;
+  border-style: groove;
+  margin-top: 5px;
+  border-radius: 20px 10px 50px 30px;
+  background-color: #252850;
+  text-align: center;
+  list-style-type: none;
+
   
 }
+
+#about {
+font-size: 23px;
+margin-left: 50px;
+justify-content: center;
+text-align: justify
+}
+
+#fotoEli {
+  
+  margin-top: 10px;
+  float: right;
+  
+}
+

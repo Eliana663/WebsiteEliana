@@ -14,21 +14,23 @@ export const Footer = () => {
       <p> <img 
                 src={logowhassap}
                 alt="Logo de Whassap"
-                height="100px"
-                width="100  px" /> 
+                height="80px"
+                width="80px" /> 
           &nbsp; España (+ 36) 689-83-27-39</p>
       <p> <img 
               src={correoelectronico}
               alt="Correo Electrónico"
-              height="80px"
-              width="110px" /> &nbsp;        
+              height="60px"
+              width="90px" /> &nbsp;        
           elianadtorrest@gmail.com</p>
       <p> <img 
             src={linkedin}
             alt="Linked in"
-            height="100px"
-            width="100px" />        
+            height="80px"
+            width="80px" />        
             <a  href="https://www.linkedin.com/in/elianatorrestazon/">https://www.linkedin.com/in/elianatorrestazon/ </a></p>
     </footer>
+      
+
   )
 }

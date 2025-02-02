@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-jest": "^24.9.0",
     "bootstrap": "^5.3.3",
+    "chrono": "^1.0.5",
     "cra-template": "1.2.0",
     "paginaprueba": "file:",
     "react": "^19.0.0",
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^19.0.0",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
