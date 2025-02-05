@@ -20,7 +20,7 @@ return <div >
                         <a class="nav-link" href="about">Acerca de mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Education">Educacion</a>
+                        <a class="nav-link" href="Timeline">Timeline</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Projects">Proyectos</a>
@@ -28,9 +28,7 @@ return <div >
                     <li class="nav-item">
                         <a class="nav-link" href="Skills">Librerías</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="WorkExperience">Experiencia Laboral</a>
-                    </li>
+                    
                     </ul>
                 </div>
             </nav>
