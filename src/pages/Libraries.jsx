@@ -1,5 +1,4 @@
-const Skills = () => {
+export const Libraries = () => {
   return <h1>Librerias</h1>;
 }
 
-export default Skills;

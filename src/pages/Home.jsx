@@ -2,7 +2,7 @@
 
 import '../index.css';
 
-const Home = () => {
+export const Home = () => {
   
   return (
   
@@ -19,4 +19,3 @@ const Home = () => {
   )
 }
 
-export default Home;

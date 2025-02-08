@@ -2,7 +2,7 @@
 import '../index.css';
 import fotoEli from '../assets/img/fotoEli.png'
 
-const About = () => {
+export const About = () => {
   
   return (
   <>
@@ -44,4 +44,3 @@ const About = () => {
   )
 }
 
-export default About;
