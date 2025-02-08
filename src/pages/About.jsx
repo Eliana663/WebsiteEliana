@@ -7,7 +7,7 @@ export const About = () => {
   return (
   <>
   <div id="about">
-  <h1 class="titulos">Acerca de mi</h1>
+  <h1 className="titulos">Acerca de mi</h1>
 
    <img id="fotoEli"
                 src={fotoEli}

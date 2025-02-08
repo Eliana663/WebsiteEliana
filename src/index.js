@@ -4,6 +4,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import  AppRouter  from './router/AppRouter.jsx';
+import { PrimeReactProvider } from 'primereact/api';
+import './flags.css';
 
 
 
@@ -12,7 +14,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <PrimeReactProvider>
      <AppRouter />
+     </PrimeReactProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

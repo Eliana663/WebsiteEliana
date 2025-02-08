@@ -8,6 +8,8 @@
     "chrono": "^1.0.5",
     "cra-template": "1.2.0",
     "paginaprueba": "file:",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
     "primereact": "^10.9.2",
     "react": "^19.0.0",
     "react-bootstrap-validation": "^0.1.11",
