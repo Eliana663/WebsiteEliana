@@ -1,12 +1,13 @@
+@import "primeicons/primeicons.css";
 
 #footer {
-  text-align: center;  
-  
-         
+  text-align: center;
+
+
 }
 
 #contenedorPrincipal {
- 
+
   color: white;
   background-attachment: fixed;
   background-position: center center;
@@ -14,11 +15,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
 
-
- 
-   
 }
 
 #pensamiento {
@@ -31,8 +28,8 @@
   margin-bottom: 450px;
   font-style: italic;
   font-family: cursive, 'Arial Narrow', Arial, sans-serif;
-  
-   
+
+
 
 }
 
@@ -47,7 +44,7 @@
 
 #eliana {
 
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 60px;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -61,7 +58,7 @@
   position: sticky;
   left: 700px;
   bottom: 0px;
-    
+
 }
 
 #parrafoFooter {
@@ -69,52 +66,19 @@
   margin-bottom: 10px;
 }
 
-.titulos {
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-.educacion {
-  display: flex;
-  margin-bottom: 100px;
-  flex-direction: row;
- 
-
-     
-}
-
-.estudios {
-
-  display: flex;
-  flex-direction: column;
-  border-style: groove;
-  margin-top: 5px;
-  border-radius: 20px 10px 50px 30px;
-  background-color: #252850;
-  text-align: center;
-  list-style-type: none;
-
-  
-}
-
 #about {
-font-size: 23px;
-margin-left: 50px;
-justify-content: center;
-text-align: justify;
-margin-bottom: 170px;
-margin-top: 40px;
+  font-size: 23px;
+  margin-left: 50px;
+  justify-content: center;
+  text-align: justify;
+  margin-bottom: 170px;
+  margin-top: 40px;
 
 }
 
 #fotoEli {
-  
+
   margin-top: 10px;
   float: right;
-  
+
 }
-
-

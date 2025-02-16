@@ -1,5 +1,5 @@
 
-body {
+.BodyTimeline {
     font-family: var(--font-family);
     font-weight: normal;
     background: var(--surface-ground);
@@ -11,14 +11,19 @@ body {
   
   .card {
     background: var(--surface-card);
-    background-color: red;
+    background-color: darkcyan;
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 1rem;
   }
 
+  .p-timeline-event-connector{
+    width: 2px;
+    background-color: rebeccapurple;
+  }
+
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 100%) {
     .customized-timeline .p-timeline-event:nth-child(even) {
         flex-direction: row !important;
     }

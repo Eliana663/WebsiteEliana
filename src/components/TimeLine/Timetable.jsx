@@ -1,12 +1,13 @@
-import React from 'react'; 
+import React from 'react';
 import { Timeline } from 'primereact/timeline';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
-import '../timetable.css';
+import '../TimeLine/timetable.css';
+import '../TimeLine/flags.css';
 
 
 export function Timetable() {
-       const events = [
+  const events = [
     {
       status: 'Ordered',
       date: '15/10/2020 10:30',
@@ -34,11 +35,15 @@ export function Timetable() {
     },
   ];
 
-  const customizedMarker = (item) => {
+  const customizedMarker = (item.3
+
+
+    3
+  ) => {
     return (
       <span
         className="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-1"
-        style={{ backgroundColor: item.color }}
+        style={{ backgroundColor: item.color, width: 28, height: 28, borderRadius: 50 }}
       >
         <i className={item.icon}></i>
       </span>
@@ -47,8 +52,8 @@ export function Timetable() {
 
   const customizedContent = (item) => {
     return (
-        
-      <Card title={item.status} subTitle={item.date} >
+
+      <Card title={item.status} subTitle={item.date} className='card'>
         {item.image && (
           <img
             src={`https://primefaces.org/cdn/primereact/images/product/${item.image}`}
@@ -57,6 +62,7 @@ export function Timetable() {
             className="shadow-1"
           />
         )}
+        <i class="pi-shopping-cart" ></i>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
           sed consequuntur error repudiandae numquam deserunt quisquam repellat
@@ -65,12 +71,12 @@ export function Timetable() {
         </p>
         <Button label="Read more" className="p-button-text"></Button>
       </Card>
-      
+
     );
   };
 
   return (
-    <div className="card">
+    <div >
       <Timeline
         value={events}
         align="alternate"
