@@ -12,8 +12,8 @@ export const About = () => {
    <img id="fotoEli"
                 src={fotoEli}
                 alt="Foto Eliana"
-                height="500px"
-                width="530px" />  
+                height="300px"
+                width="330px" />  
 
     <p> Con una sólida formación en administración y negocio marítimo, cuento con una experiencia laboral de más de 10 años en negociaciones internacionales incluyendo amplios conocimientos técnicos en el proceso de compras e importaciones.</p>
 
