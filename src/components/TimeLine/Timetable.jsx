@@ -17,7 +17,7 @@ export function Timetable() {
         className="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-1"
         style={{ backgroundColor: item.color, width: 50, height: 50, borderRadius: 30}}
       >
-        <i className={item.icon} style={{fontSize: 40}}></i>
+        <i className={item.icon} style={{marginLeft:15, marginTop: 15, fontSize: 20}}></i>
       </span>
     );
   };
