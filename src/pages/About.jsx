@@ -6,18 +6,17 @@ export const About = () => {
   
   return (
   <>
+  
   <div id="about">
-  <h1 className="titulos">Acerca de mi</h1>
+    <h1 className="titulos">Acerca de mi...</h1>
 
-   <img id="fotoEli"
+     <img id="fotoEli"
                 src={fotoEli}
                 alt="Foto Eliana"
-                height="300px"
-                width="330px" />  
+                height="500px"
+                width="560x" />  
 
-    <p> Con una sólida formación en administración y negocio marítimo, cuento con una experiencia laboral de más de 10 años en negociaciones internacionales incluyendo amplios conocimientos técnicos en el proceso de compras e importaciones.</p>
-
-    <p>Fue en 2024 cuando quise dar un giro a mi carrera para adentrarme en nuevos rumbos: Desarrollo Web. Al día de hoy me encuentro realizando un máster en programación Java e hice un curso de desarrollo de aplicaciones.</p>
+    <p> Aunque cuento una sólida formación en administración y comercio internacional, en 2024  decidí dar un giro a mi carrera para adentrarme en nuevos rumbos: Desarrollo Web. Al día de hoy me encuentro realizando un máster en programación Java e hice un curso de desarrollo de aplicaciones.</p>
 
     <p>Me encanta aprender cada día algo nuevo y me encuentro abierta a nuevas oportunidades que me ayuden a desarrollar mis destrezas en el sector tecnológico.</p>
 
@@ -37,8 +36,9 @@ export const About = () => {
     <li>(Bajo) SQL </li>
     <li> (Bajo) React </li>
 
-</ul>
-</div>
+    </ul>
+  </div>
+
 </>
 
   )

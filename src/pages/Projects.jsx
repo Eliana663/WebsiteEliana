@@ -6,9 +6,10 @@ export const Projects = () => {
   return (
   
     <>
+    
       <h1 className="titulos">Proyectos </h1>
 
-      <h1 className="titulos"> Pagina en construcción</h1>
+      <h1 className="titulos"> Página en construcción</h1>
 
       <div className="enConstruccion">
         <img 
@@ -18,7 +19,7 @@ export const Projects = () => {
                 width="330px" />  
        </div>
 
-
+    
     
 
   </>
