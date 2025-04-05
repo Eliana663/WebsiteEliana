@@ -4,7 +4,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="fhttps://github.com/Eliana663/WebsiteEliana.git" filepath="C:\Users\34653\Desktop\PaginaEliana\paginaprueba" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/paginaprueba.iml" filepath="$PROJECT_DIR$/.idea/paginaprueba.iml" />
     </modules>
   </component>
 </project>
