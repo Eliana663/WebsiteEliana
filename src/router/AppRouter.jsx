@@ -3,7 +3,7 @@ import '../index.css';
 import { Footer }  from '../Footer';
 import { Routes, Route } from 'react-router-dom'
 import Layout from "../components/Layout";
-import {About, Timeline, Projects, Libraries, Home } from "../pages"
+import {About, Timeline, Projects, Home } from "../pages"
 
 
 
@@ -22,7 +22,6 @@ function AppRouter() {
            <Route path="about" element={<About />}/>
            <Route path="Timeline" element={<Timeline />}/>
            <Route path="Projects" element={<Projects />}/>
-           <Route path="Libraries" element={<Libraries />}/>
            <Route path="*" element={<Home />}/>
         </Route>
        

@@ -19,7 +19,7 @@
   height: 10vh;
   display: flex;
   align-items: last baseline;
-  font-size: 20px;
+  font-size: 30px;
   justify-content: center;
   margin-bottom: 200px;
   font-style: italic;
@@ -32,6 +32,7 @@
   font-size: 30px;
   text-align: center;
   font-weight: 400;
+  margin-bottom: 250px;
 
 
 }
@@ -99,3 +100,14 @@
   margin-bottom: 100px;;
   margin-top: 100px;;
 }
+
+.projects {
+    background: var(--surface-card);
+    background-color: #252850;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 25px;
+  }

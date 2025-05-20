@@ -1,29 +1,27 @@
-
-import enConstruccion from '../assets/img/enConstruccion.png'
+import projects from '../data/projects';
 
 export const Projects = () => {
-  
   return (
-  
     <>
-    
-      <h1 className="titulos">Proyectos </h1>
+      <h1 className="titulos">Proyectos</h1>
 
-      <h1 className="titulos"> Página en construcción</h1>
-
-      <div className="enConstruccion">
-        <img 
-                src={enConstruccion}
-                alt="Foto Eliana"
-                height="300px"
-                width="330px" />  
-       </div>
-
-    
-    
-
-  </>
-
-  )
-}
-
+      {projects.map((p, i) => (
+        <div className="projects" key={i}>
+          <h1>{p.titulo}</h1>
+          <ul>
+            <li><strong>Tecnologías utilizadas:</strong> {p.tecnologias.join(', ')}</li>
+            <li>
+              <strong>Repositorio:</strong>{' '}
+              {p.repositorio ? (
+                <a href={p.repositorio} target="_blank" rel="noopener noreferrer">GitHub</a>
+              ) : (
+                'En construcción'
+              )}
+            </li>
+            <li><strong>Descripción:</strong> {p.descripcion}</li>
+          </ul>
+        </div>
+      ))}
+    </>
+  );
+};

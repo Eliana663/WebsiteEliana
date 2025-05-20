@@ -25,9 +25,6 @@ return <div >
                     <li class="nav-item">
                         <a class="nav-link" href="Projects">Proyectos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Libraries">Librerías</a>
-                    </li>
                     
                     </ul>
                 </div>

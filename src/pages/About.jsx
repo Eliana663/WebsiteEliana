@@ -16,12 +16,19 @@ export const About = () => {
                 height="500px"
                 width="560x" />  
 
-    <p> Aunque cuento una sólida formación en administración y comercio internacional, en 2024  decidí dar un giro a mi carrera para adentrarme en nuevos rumbos: Desarrollo Web. Al día de hoy me encuentro realizando un máster en programación Java e hice un curso de desarrollo de aplicaciones.</p>
+    <p> Soy una desarrolladora junior actualmente creando una aplicación web real para facilitar el seguimiento de la dieta cetogénica, usando Spring Boot, MySQL y React.</p>
 
-    <p>Me encanta aprender cada día algo nuevo y me encuentro abierta a nuevas oportunidades que me ayuden a desarrollar mis destrezas en el sector tecnológico.</p>
+    <p> Vengo del mundo de la administración, lo que me ha permitido desarrollar una mentalidad estructurada, orientada a la eficiencia y a la resolución de problemas reales. Tengo experiencia en el uso de herramientas ERP como SAP y Navision, lo que me ha dado una base sólida en la gestión de procesos empresariales.</p>
 
-    <pre> </pre>
-         
+    <p> Me apasiona aprender y crear soluciones útiles. Busco una oportunidad que me permita obtener experiencia en el área tecnológica y aportar con responsabilidad.</p>
+
+   <ul>
+    <li> Estudiante de Máster en Java </li>
+    <li> Licenciada en Administración (Comercio Internacional), con equivalencia reconocida en España</li>
+    <li> Inglés profesional (C1)</li>
+   </ul>
+
+      <pre></pre>
                 
     <h2>Conocimientos en lenguajes y tecnologías: <pre> </pre></h2>
 
@@ -30,11 +37,13 @@ export const About = () => {
     <li>(Medio) HTML </li>
     <li>(Medio) CSS  </li>
     <li>(Medio) GitHub </li>
+    <li>(Medio) Kotlin </li>
+    <li>(Medio) Bootstrap </li>
     <li>(Bajo) SQL </li>
     <li>(Bajo) Java </li>
     <li>(Bajo )JavaScript </li>
     <li>(Bajo) SQL </li>
-    <li> (Bajo) React </li>
+    <li>(Bajo) React </li>
 
     </ul>
   </div>
