@@ -5,55 +5,54 @@ import '../TimeLine/timetable.css';
 import '../TimeLine/flags.css';
 import { cronology } from '../../data/cronology';
 
-
-
-
 export function Timetable() {
-  const events = cronology
+  const events = cronology;
+
+  // Detectamos ancho de pantalla para cambiar alineación del timeline
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768);
+
+  React.useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const customizedMarker = (item) => {
     return (
       <span
-        className="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-1"
-        style={{ backgroundColor: item.color, width: 50, height: 50, borderRadius: 30}}
+        className="custom-marker"
+        style={{ backgroundColor: item.color }}
       >
-        <i className={item.icon} style={{marginLeft:15, marginTop: 15, fontSize: 20}}></i>
+        <i className={item.icon}></i>
       </span>
     );
   };
 
   const customizedContent = (item) => {
-
-
     return (
-
-      <Card title={item.status} className='card'>
+      <Card title={item.status} className="card-custom">
         {item.image && (
           <img
             src={`https://primefaces.org/cdn/primereact/images/product/${item.image}`}
             alt={item.name}
-            width={200}
-            className="shadow-1"
+            className="card-image"
           />
-
-          
         )}
-       
+
         <ul>
           <li>{item.Organization}</li>
           <li>{item.Beggining} - {item.Ending}</li>
-          <li>{item.Title}</li> 
+          <li>{item.Title}</li>
         </ul>
-       </Card>
-
+      </Card>
     );
   };
 
   return (
-    <div >
+    <div className="timetable-container">
       <Timeline
         value={events}
-        align="alternate"
+        align={isMobile ? 'left' : 'alternate'}
         className="customized-timeline"
         marker={customizedMarker}
         content={customizedContent}

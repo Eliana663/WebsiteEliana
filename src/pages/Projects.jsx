@@ -2,12 +2,12 @@ import projects from '../data/projects';
 
 export const Projects = () => {
   return (
-    <>
+    <div className="container my-5">
       <h1 className="titulos">Proyectos</h1>
 
       {projects.map((p, i) => (
         <div className="projects" key={i}>
-          <h1>{p.titulo}</h1>
+          <h2>{p.titulo}</h2>
           <ul>
             <li><strong>Tecnologías utilizadas:</strong> {p.tecnologias.join(', ')}</li>
             <li>
@@ -22,6 +22,6 @@ export const Projects = () => {
           </ul>
         </div>
       ))}
-    </>
+    </div>
   );
 };

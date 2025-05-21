@@ -4,35 +4,47 @@ import '../index.css';
 
 
 const Layout = () => {
-return <div >
-         <nav class="navbar-fixed-top navbar navbar-expand-lg navbar-dark " style={{backgroundColor: '#252850', fontSize: '20px'}} >
-            <a class="navbar-brand" href="/">Eliana Torres</a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-             </button>
+return  (
+    <div>
+      <nav
+        className="navbar navbar-expand-lg navbar-dark"
+        style={{ backgroundColor: '#252850', fontSize: '20px' }}
+      >
+        <div className="container">
+          <a className="navbar-brand" href="/">Eliana Torres</a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="/">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Timeline">Timeline</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Projects">Proyectos</a>
-                    </li>
-                    
-                    </ul>
-                </div>
-            </nav>
-    
-            <Outlet />
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="/">Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/about">Acerca de mí</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/timeline">Timeline</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/projects">Proyectos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        </div>;
+      <Outlet />
+    </div>
+);
 }
-
 export default Layout;
