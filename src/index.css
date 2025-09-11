@@ -6,7 +6,7 @@
 
   background-image: url('./assets/img/fondoTopitos.jpg');
   background-size: 250px 350px;
-  color: white;
+  color: antiquewhite;
   height: 100%;
   width: 100%;;
  
@@ -27,13 +27,12 @@
 }
 
 #textoHome {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Playfair Display', serif; 
+  font-style: italic; 
   font-size: 30px;
   text-align: center;
   font-weight: 400;
   margin-bottom: 250px;
-
-
 }
 
 #eliana {
@@ -53,24 +52,35 @@
   height: 400px;
   width: 100%;
   max-width: 100%;
+  
 }
 
 #parrafoFooter {
 
   margin-bottom: 10px;
   
+  
 }
 
 #about {
-  font-family: "'Poppins', 'Segoe UI', Arial, sans-serif";
-  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+    font-size: 25px;
   margin-left: 50px;
-  justify-content: center;
   text-align: justify;
   margin-bottom: 170px;
   margin-top: 60px;
-  
+  color: antiquewhite;
 }
+
+.about-text p {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 1.6;
+  color: antiquewhite;
+}
+
 
 #fotoEli {
 
@@ -141,7 +151,7 @@
 .projects {
   margin-bottom: 40px;
   background-color: #252850; 
-  color: white;
+  color: antiquewhite;
   padding: 20px;
   border-radius: 10px;
 }

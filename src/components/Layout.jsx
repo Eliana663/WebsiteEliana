@@ -1,17 +1,17 @@
-import { Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import '../index.css';
 
-
-
 const Layout = () => {
-return  (
+  return (
     <div>
       <nav
         className="navbar navbar-expand-lg navbar-dark"
-        style={{ backgroundColor: '#252850', fontSize: '20px' }}
+        style={{ backgroundColor: '#252850', fontSize: '40px', padding: '1rem 0' }}
       >
         <div className="container">
-          <a className="navbar-brand" href="/">Eliana Torres</a>
+          <a className="navbar-brand" href="/" style={{ fontSize: '30px', fontWeight: '600' }}>
+            Eliana Torres
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -27,24 +27,27 @@ return  (
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/">Home</a>
+                <a className="nav-link" href="/" style={{ fontSize: '30px' }}>Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">Acerca de mí</a>
+                <a className="nav-link" href="/about" style={{ fontSize: '30px' }}>Acerca de mí</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/timeline">Timeline</a>
+                <a className="nav-link" href="/timeline" style={{ fontSize: '30px' }}>Timeline</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/projects">Proyectos</a>
+                <a className="nav-link" href="/projects" style={{ fontSize: '30px' }}>Proyectos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <Outlet />
+      <div style={{ padding: '2rem 1rem', fontSize: '18px', lineHeight: '1.6' }}>
+        <Outlet />
+      </div>
     </div>
-);
+  );
 }
+
 export default Layout;

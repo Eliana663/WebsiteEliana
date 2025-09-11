@@ -1,10 +1,13 @@
-
 import '../index.css';
 import fotoEli from '../assets/img/fotoEli.png';
 
 export const About = () => {
   return (
-    <div id="about" className="container my-5" style={{ margin: "0 auto", maxWidth: "1800px", padding: "20px" }}>
+    <div
+      id="about"
+      className="container my-5 about-text"
+      style={{ margin: "0 auto", maxWidth: "1200px", padding: "20px" }}
+    >
       <h1 className="titulos text-center">Acerca de mí...</h1>
 
       <div className="row align-items-center mb-5">
@@ -19,24 +22,31 @@ export const About = () => {
 
         <div className="col-md-7">
           <p>
-            Soy una desarrolladora junior actualmente creando una aplicación web real para facilitar el
-            seguimiento de la dieta cetogénica, usando Spring Boot, MySQL y React.
+            ✨ Actualmente desarrollo una aplicación web real para el seguimiento de la dieta cetogénica 🍳📊 usando Spring Boot, MySQL y React, como parte del proyecto final de mi Máster en Java. 
           </p>
           <p>
-            Vengo del mundo de la administración, lo que me ha permitido desarrollar una mentalidad
-            estructurada, orientada a la eficiencia y a la resolución de problemas reales. Tengo experiencia
-            en el uso de herramientas ERP como SAP y Navision, lo que me ha dado una base sólida en la
-            gestión de procesos empresariales.
+            📌 Con experiencia en administración y gestión de procesos, he desarrollado una mentalidad estructurada y orientada a la eficiencia, con conocimientos en ERP como SAP y Navision.
           </p>
           <p>
-            Me apasiona aprender y crear soluciones útiles. Busco una oportunidad que me permita obtener
-            experiencia en el área tecnológica y aportar con responsabilidad.
+            🚀 Estoy lista para iniciar mi carrera en IT a través de prácticas profesionales, combinando mis habilidades administrativas con mi nueva faceta técnica. Mi objetivo: aprender, crecer y aportar valor desde el primer día.
           </p>
 
+          <hr />
+
+          <h3>🎓 Formación y certificaciones</h3>
           <ul>
-            <li>Estudiante de Máster en Java</li>
-            <li>Licenciada en Administración (Comercio Internacional), con equivalencia reconocida en España</li>
-            <li>Inglés profesional (C1)</li>
+            <li>🎓 Máster en Java (actualidad, proyecto práctico en desarrollo web)</li>
+            <li>🎓 Licenciada en Administración (Comercio Internacional) con equivalencia en España</li>
+            <li>📜 Certificado Profesional en Programación Web (Xunta de Galicia)</li>
+            <li>🌍 Inglés profesional (C1)</li>
+          </ul>
+
+          <h3>💻 Tecnologías y herramientas</h3>
+          <ul>
+            <li>🎨 Frontend: HTML, CSS, JavaScript, React ⚛️, Bootstrap (nivel medio)</li>
+            <li>⚙️ Backend: Java ☕, Spring Boot 🌱, Kotlin (nivel medio)</li>
+            <li>🗄️ Bases de datos: MySQL</li>
+            <li>🛠️ Herramientas: Git</li>
           </ul>
         </div>
       </div>
