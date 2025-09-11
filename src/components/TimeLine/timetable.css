@@ -10,7 +10,7 @@
 
 
 .card-custom {
-  background-color: #00796b !important; /* el !important ayuda a sobreescribir estilos de PrimeReact */
+  background-color: #00796b !important; 
   color: white !important;
   padding: 2rem !important;
   border-radius: 12px !important;
@@ -24,7 +24,7 @@
 
 .p-timeline-event-connector {
     width: 3px;
-    background-color: #004d40; /* verde oscuro para línea */
+    background-color: #004d40; 
 }
 
 
