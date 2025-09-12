@@ -13,7 +13,7 @@ export const Home = () => {
       <p> Interesada en obtener experiencia en el área de TI</p>
       <p> ✨ Aprendiendo Java, Kotlin y React, combinando organización y creatividad para crear soluciones útiles. 💻 </p>
       <p> Te invito a explorar mis proyectos y a conocerme un poco mas</p>
-      <h5 id="pensamiento">"Las que conducen y arrastran al mundo no son las máquinas, sino las ideas" (Victor Hugo) </h5>
+      <h5 className="mx-auto" id="pensamiento">"Las que conducen y arrastran al mundo no son las máquinas, sino las ideas" (Victor Hugo) </h5>
     </div>
    
   

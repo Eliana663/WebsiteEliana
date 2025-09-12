@@ -66,15 +66,7 @@ export const cronology = [
         Ending:'Febrero - 2013',
         Title:'Coordinador de Logística y Compras Internacionales'
     },
-    {
-        status: 'Empleo',
-        icon: 'pi pi-briefcase',
-        color: '#673AB7', 
-        Organization:'Total Calzados', 
-        Beggining:'Agosto - 2010',
-        Ending:'AMarzo - 2011',
-        Title:'Analista de Compras'
-    },
+    
     {
         status: 'Estudio',
         icon: 'pi pi-graduation-cap',

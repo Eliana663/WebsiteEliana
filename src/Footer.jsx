@@ -12,7 +12,8 @@ export const Footer = () => {
         color: "white",
         padding: "2rem 1rem",
         textAlign: "center",
-        marginTop: "2rem"
+        marginTop: "2rem",
+        color: 'antiquewhite'
       }}
     >
       <h3 style={{ marginBottom: "1.5rem" }}>

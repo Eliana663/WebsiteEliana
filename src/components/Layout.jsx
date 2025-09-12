@@ -9,7 +9,7 @@ const Layout = () => {
         style={{ backgroundColor: '#252850', fontSize: '40px', padding: '1rem 0' }}
       >
         <div className="container">
-          <a className="navbar-brand" href="/" style={{ fontSize: '30px', fontWeight: '600' }}>
+          <a className="navbar-brand" href="/" style={{ fontSize: '30px', fontWeight: '600', color: 'antiquewhite' }}>
             Eliana Torres
           </a>
           <button

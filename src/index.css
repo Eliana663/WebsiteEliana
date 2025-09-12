@@ -14,22 +14,18 @@
 }
 
 #pensamiento {
-  width: 100vw;
-  height: 10vh;
-  display: flex;
-  align-items: last baseline;
-  font-size: 40px;
-  justify-content: center;
-  margin-bottom: 200px;
+  width: 100%; /* ocupa todo el ancho disponible */
+  font-size: clamp(16px, 3vw, 30px); /* tamaño adaptable según pantalla */
+  text-align: center; /* centrado horizontal */
+  margin: 40px auto 20px auto; /* separación arriba y abajo */
   font-style: italic;
   font-family: cursive, 'Arial Narrow', Arial, sans-serif;
-  
 }
 
 #textoHome {
   font-family: 'Playfair Display', serif; 
   font-style: italic; 
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   font-weight: 400;
   margin-bottom: 250px;
@@ -64,18 +60,18 @@
 
 #about {
   font-family: 'Roboto Slab', serif;
-    font-size: 25px;
-  margin-left: 50px;
+  font-size: 30px;
   text-align: justify;
   margin-bottom: 170px;
   margin-top: 60px;
   color: antiquewhite;
 }
 
-.about-text p {
+.about-text p
+.about-text li {
   font-family: 'Roboto Slab', serif;
   font-style: italic;
-  font-size: 25px;
+  font-size: 30px;
   text-align: justify;
   line-height: 1.6;
   color: antiquewhite;

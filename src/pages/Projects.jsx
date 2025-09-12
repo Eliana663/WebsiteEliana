@@ -29,8 +29,7 @@ export const Projects = () => {
                       key={idx} 
                       src={img} 
                       alt={`${p.titulo} ${idx + 1}`} 
-                      className="proyecto-img"
-                      style={p.titulo === "Página web en React" ? { width: '800px', height: 'auto', objectFit: 'cover' } : {}}
+                      className="proyecto-img"                      
                     />
                   ))}
                 </div>
