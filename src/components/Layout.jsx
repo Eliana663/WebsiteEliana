@@ -1,7 +1,13 @@
 import { Outlet } from "react-router-dom";
+import { useLanguage } from "../LanguageContext";
+import es from "../locales/es.json";
+import en from "../locales/en.json";
 import '../index.css';
 
 const Layout = () => {
+  const { lang, toggleLang } = useLanguage();
+  const t = lang === "es" ? es : en;
+
   return (
     <div>
       <nav
@@ -10,8 +16,9 @@ const Layout = () => {
       >
         <div className="container">
           <a className="navbar-brand" href="/" style={{ fontSize: '30px', fontWeight: '600', color: 'antiquewhite' }}>
-            Eliana Torres
+            {t.brand}
           </a>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -27,16 +34,21 @@ const Layout = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/" style={{ fontSize: '30px' }}>Home</a>
+                <a className="nav-link" href="/" style={{ fontSize: '30px' }}>{t.home}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about" style={{ fontSize: '30px' }}>Acerca de mí</a>
+                <a className="nav-link" href="/about" style={{ fontSize: '30px' }}>{t.about}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/timeline" style={{ fontSize: '30px' }}>Timeline</a>
+                <a className="nav-link" href="/timeline" style={{ fontSize: '30px' }}>{t.timeline}</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/projects" style={{ fontSize: '30px' }}>Proyectos</a>
+                <a className="nav-link" href="/projects" style={{ fontSize: '30px' }}>{t.projects}</a>
+              </li>
+              <li className="nav-item">
+                <button onClick={toggleLang} style={{ fontSize: '20px', marginLeft: '1rem' }}>
+                  {lang === "es" ? "EN" : "ES"}
+                </button>
               </li>
             </ul>
           </div>
