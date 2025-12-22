@@ -12,7 +12,8 @@ export const Footer = () => {
         color: "white",
         padding: "2rem 1rem",
         textAlign: "center",
-        marginTop: "2rem"
+        marginTop: "2rem",
+        color: 'antiquewhite'
       }}
     >
       <h3 style={{ marginBottom: "1.5rem" }}>
@@ -27,7 +28,7 @@ export const Footer = () => {
           gap: "1rem"
         }}
       >
-        {/* WhatsApp */}
+        
         <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
           <img
             src={logowhassap}
@@ -37,12 +38,12 @@ export const Footer = () => {
           <span>España (+36) 689-83-27-39</span>
         </div>
 
-        {/* Email */}
+       
         <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
           <img
             src={correoelectronico}
             alt="Correo Electrónico"
-            style={{ width: "32px", height: "32px" }}
+            style={{ width: "40px", height: "25px" }}
           />
           <span>elianadtorrest@gmail.com</span>
         </div>

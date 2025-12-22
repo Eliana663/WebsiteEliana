@@ -3,6 +3,8 @@ import inicioImg from '../assets/img/IniciarSesion.png';
 import macrosImg from '../assets/img/Macros.png';
 import registroImg from '../assets/img/RegistrodeHabitos.png';
 import paginaWebImg from '../assets/img/ProyectoPaginaWeb.png';
+import buscadorAlim from '../assets/img/Buscador.png'
+import calculadoraKeto from '../assets/img/CalculadoraKeto.png'
 
 const projects = [
   {
@@ -33,10 +35,10 @@ const projects = [
       'Spring Security',
       'MySQL'
     ],
-    repositorio: null, // En construcción
+    repositorio: null, 
     descripcion:
       'StayKeto es una aplicación web que estoy diseñando para ayudar a los usuarios a saber si están en cetosis y llevar un control visual de su progreso. Está enfocada en personas que siguen la dieta cetogénica y desean monitorear su estado metabólico, alimentación y métricas personales (peso, medidas, etc.).',
-    imagenes: [inicioImg, macrosImg, registroImg]
+    imagenes: [inicioImg, macrosImg, registroImg, buscadorAlim, calculadoraKeto]
   }
 ];
 
