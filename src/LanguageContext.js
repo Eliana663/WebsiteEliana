@@ -5,9 +5,17 @@ const LanguageContext = createContext();
 export const LanguageProvider = ({ children }) => {
   const [lang, setLang] = useState("es");
 
-    useEffect(() => {
-    const browserLang = navigator.language.startsWith("en") ? "en" : "es";
-    setLang(browserLang);
+  useEffect(() => {
+    // Primero mira si hay idioma guardado en localStorage
+    const savedLang = localStorage.getItem("lang");
+    if (savedLang) {
+      setLang(savedLang);
+    } else {
+      // Si no hay, usa el idioma del navegador
+      const browserLang = navigator.language.startsWith("en") ? "en" : "es";
+      setLang(browserLang);
+      localStorage.setItem("lang", browserLang);
+    }
   }, []);
 
   const toggleLang = () => {

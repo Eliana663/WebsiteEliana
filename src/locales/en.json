@@ -3,5 +3,136 @@
   "home": "Home",
   "about": "About me",
   "timeline": "Timeline",
-  "projects": "Projects"
+  "projects": "Projects",
+
+  "aboutSection": {
+    "title": "About me...",
+    "intro": [
+      "✨ I have developed a complete web application for tracking the ketogenic diet 🍳📊 using Spring Boot, MySQL, and React as the final project of my Java Master’s degree.",
+      "📌 I bring previous experience in administration and international English-speaking environments, allowing me to combine solid technical skills with strong communication and organizational abilities.",
+      "🚀 I am currently seeking my first professional opportunity in IT, either through an internship or a junior position, with the goal of continuing to grow as a developer and delivering real value from day one."
+    ],
+    "educationTitle": "🎓 Education and certifications",
+    "education": [
+      "Master’s Degree in Java (with a practical web development project)",
+      "Bachelor’s Degree in Business Administration (International Trade), officially recognized in Spain",
+      "Professional Certificate in Web Development IFCD0210 (Xunta de Galicia)",
+      "Professional English (C1)"
+    ],
+    "skillsTitle": "💻 Technologies and tools",
+    "skills": [
+      "Java (intermediate): fundamentals, OOP, advanced programming, multithreading",
+      "Spring Boot (intermediate): MVC architecture, REST APIs, Hibernate integration",
+      "React (intermediate): frontend development, MUI, reusable UI components",
+      "HTML, CSS, and JavaScript (intermediate)",
+      "SQL and relational databases (intermediate): MySQL, JDBC",
+      "RESTful API development (intermediate)",
+      "Kotlin and Android Studio (intermediate): mobile application development",
+      "Git (intermediate): version control",
+      "Cloud (basic-intermediate): deployment with Netlify",
+      "Java project management (basic): Maven, Gradle, Ant",
+      "Testing and logging (basic)",
+      "Design patterns (basic): Singleton, Builder"
+    ]
+  },
+
+  "homeSection": {
+    "title": "Eliana Torres",
+    "p1": "Interested in gaining experience in the IT field",
+    "p2": "✨ Learning Java, Kotlin, and React, combining organization and creativity to build useful solutions. 💻",
+    "p3": "I invite you to explore my projects and get to know me a bit more",
+    "quote": "\"Those who lead and move the world are not machines, but ideas\" (Victor Hugo)"
+  },
+
+  "timelineSection": {
+    "title": "Timeline",
+    "description": "Below is a detailed timeline of my academic background and professional experience:"
+  },
+
+  "timetableSection": [
+    {
+      "status": "Volunteer",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "TugOnn Schweiz",
+      "Type": "Job",
+      "Beggining": "October - 2025",
+      "Ending": "Present",
+      "Title": "Volunteer on TugOnn website"
+    },
+    {
+      "status": "Study",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "UCAM - Universidad Católica de Murcia",
+      "Type": "Study",
+      "Beggining": "January - 2025",
+      "Ending": "November - 2025",
+      "Title": "Master in Programming and Java Application Development"
+    },
+    {
+      "status": "Study",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Academia Postal",
+      "Type": "Study",
+      "Beggining": "May - 2024",
+      "Ending": "September - 2024",
+      "Title": "Web Application Development Certification IFD0210"
+    },
+    {
+      "status": "Job",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "Grupo Teleco",
+      "Type": "Job",
+      "Beggining": "September - 2024",
+      "Ending": "September - 2024",
+      "Title": "Web Development Intern"
+    },
+    {
+      "status": "Job",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "ABCR Laboratorios",
+      "Beggining": "January - 2018",
+      "Ending": "February - 2024",
+      "Title": "Purchasing Administrator"
+    },
+    {
+      "status": "Study",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Escuela Oficial de Idiomas",
+      "Beggining": "January - 2018",
+      "Ending": "July - 2023",
+      "Title": "English Language Learning Course"
+    },
+    {
+      "status": "Job",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Beggining": "March 2013",
+      "Ending": "January - 2017",
+      "Title": "International Purchasing Manager"
+    },
+    {
+      "status": "Job",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "Corporación Delcop",
+      "Beggining": "March - 2011",
+      "Ending": "February - 2013",
+      "Title": "Logistics and International Purchasing Coordinator"
+    },
+    {
+      "status": "Study",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Universidad Marítima del Caribe",
+      "Beggining": "October 2005",
+      "Ending": "July 2010",
+      "Title": "Bachelor in Business Administration with specialization in International Trade, officially recognized in Spain"
+    }
+  ]
 }
