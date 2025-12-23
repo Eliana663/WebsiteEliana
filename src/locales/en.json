@@ -3,5 +3,45 @@
   "home": "Home",
   "about": "About me",
   "timeline": "Timeline",
-  "projects": "Projects"
-}
+  "projects": "Projects",
+
+  "aboutSection": {
+    "title": "About me...",
+    "intro": [
+      "✨ I have developed a complete web application for tracking the ketogenic diet 🍳📊 using Spring Boot, MySQL, and React as the final project of my Java Master’s degree.",
+      "📌 I bring previous experience in administration and international English-speaking environments, allowing me to combine solid technical skills with strong communication and organizational abilities.",
+      "🚀 I am currently seeking my first professional opportunity in IT, either through an internship or a junior position, with the goal of continuing to grow as a developer and delivering real value from day one."
+    ],
+    "educationTitle": "🎓 Education and certifications",
+    "education": [
+      "Master’s Degree in Java (with a practical web development project)",
+      "Bachelor’s Degree in Business Administration (International Trade), officially recognized in Spain",
+      "Professional Certificate in Web Development IFCD0210 (Xunta de Galicia)",
+      "Professional English (C1)"
+    ],
+    "skillsTitle": "💻 Technologies and tools",
+    "skills": [
+      "Java (intermediate): fundamentals, OOP, advanced programming, multithreading",
+      "Spring Boot (intermediate): MVC architecture, REST APIs, Hibernate integration",
+      "React (intermediate): frontend development, MUI, reusable UI components",
+      "HTML, CSS, and JavaScript (intermediate)",
+      "SQL and relational databases (intermediate): MySQL, JDBC",
+      "RESTful API development (intermediate)",
+      "Kotlin and Android Studio (intermediate): mobile application development",
+      "Git (intermediate): version control",
+      "Cloud (basic-intermediate): deployment with Netlify",
+      "Java project management (basic): Maven, Gradle, Ant",
+      "Testing and logging (basic)",
+      "Design patterns (basic): Singleton, Builder"
+    ]
+
+  },
+    "homeSection": {
+    "title": "Eliana Torres",
+    "p1": "Interested in gaining experience in the IT field",
+    "p2": "✨ Learning Java, Kotlin, and React, combining organization and creativity to build useful solutions. 💻",
+    "p3": "I invite you to explore my projects and get to know me a bit more",
+    "quote": "\"Those who lead and move the world are not machines, but ideas\" (Victor Hugo)"
+  }
+  }
+
