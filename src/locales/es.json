@@ -1,143 +1,96 @@
 {
   "brand": "Eliana Torres",
   "home": "Inicio",
-  "about": "Acerca de mí",
-  "timeline": "Timeline",
+  "about": "Sobre mí",
+  "timeline": "Cronología",
   "projects": "Proyectos",
 
+  "homeSection": {
+    "title": "Eliana Torres",
+    "p1": "Interesada en adquirir experiencia en el área de TI",
+    "p2": "✨ Aprendiendo Java, Kotlin y React, combinando organización y creatividad para construir soluciones útiles. 💻",
+    "p3": "Te invito a explorar mis proyectos y conocerme un poco más",
+    "quote": "\"Los que lideran y mueven el mundo no son máquinas, sino ideas\" (Victor Hugo)"
+  },
+
   "aboutSection": {
-    "title": "Acerca de mí...",
+    "title": "Sobre mí...",
     "intro": [
-      "✨ He desarrollado una aplicación web completa para el seguimiento de la dieta cetogénica 🍳📊 utilizando Spring Boot, MySQL y React, como proyecto final de mi Máster en Java.",
-      "📌 Cuento con experiencia previa en administración y entornos internacionales en inglés, lo que me permite combinar una base técnica sólida con buenas habilidades de comunicación y organización.",
-      "🚀 Actualmente busco mi primera oportunidad profesional en IT, ya sea a través de prácticas o una posición junior, con el objetivo de seguir creciendo como desarrolladora y aportar valor real desde el primer día."
+      "✨ He desarrollado una aplicación web completa para el seguimiento de la dieta cetogénica 🍳📊 usando Spring Boot, MySQL y React como proyecto final de mi máster en Java.",
+      "📌 Cuento con experiencia previa en administración y entornos internacionales de habla inglesa, lo que me permite combinar habilidades técnicas sólidas con capacidad de comunicación y organización.",
+      "🚀 Actualmente busco mi primera oportunidad profesional en TI, ya sea a través de prácticas o un puesto junior, con el objetivo de seguir creciendo como desarrolladora y aportar valor desde el primer día."
     ],
-    "educationTitle": "🎓 Formación y certificaciones",
+    "educationTitle": "🎓 Educación y certificaciones",
     "education": [
-      "Máster en Java (con proyecto práctico en desarrollo web)",
-      "Licenciada en Administración (Comercio Internacional) con equivalencia en España",
-      "Certificado Profesional en Programación Web IFCD0210 (Xunta de Galicia)",
+      "Máster en Java (con proyecto práctico de desarrollo web)",
+      "Licenciatura en Administración de Empresas (Comercio Internacional), reconocida oficialmente en España",
+      "Certificación profesional en Desarrollo Web IFCD0210 (Xunta de Galicia)",
       "Inglés profesional (C1)"
     ],
     "skillsTitle": "💻 Tecnologías y herramientas",
     "skills": [
-      "Java (medio): fundamentos, POO, programación avanzada y multihilo",
-      "Spring Boot (medio): arquitectura MVC, APIs REST, integración con Hibernate",
-      "React (medio): desarrollo frontend, MUI, creación de componentes reutilizables",
-      "HTML, CSS y JavaScript (medio)",
-      "SQL y bases de datos relacionales (medio): MySQL, JDBC",
-      "Desarrollo de APIs RESTful (medio)",
-      "Kotlin y Android Studio (medio): desarrollo de aplicaciones móviles",
-      "Git (medio): control de versiones",
-      "Cloud (bajo-medio): despliegue en Netlify",
-      "Gestión de proyectos Java (bajo): Maven, Gradle, Ant",
-      "Testing y logging (bajo)",
-      "Patrones de diseño (bajo): Singleton, Builder"
+      "Java (intermedio): fundamentos, POO, programación avanzada, multithreading",
+      "Spring Boot (intermedio): arquitectura MVC, APIs REST, integración con Hibernate",
+      "React (intermedio): desarrollo frontend, MUI, componentes reutilizables",
+      "HTML, CSS y JavaScript (intermedio)",
+      "SQL y bases de datos relacionales (intermedio): MySQL, JDBC",
+      "Desarrollo de APIs RESTful (intermedio)",
+      "Kotlin y Android Studio (intermedio): desarrollo de aplicaciones móviles",
+      "Git (intermedio): control de versiones",
+      "Cloud (básico-intermedio): despliegue con Netlify",
+      "Gestión de proyectos Java (básico): Maven, Gradle, Ant",
+      "Testing y logging (básico)",
+      "Patrones de diseño (básico): Singleton, Builder"
     ]
   },
 
-  "homeSection": {
-    "title": "Eliana Torres",
-    "p1": "Interesada en obtener experiencia en el área de TI",
-    "p2": "✨ Aprendiendo Java, Kotlin y React, combinando organización y creatividad para crear soluciones útiles. 💻",
-    "p3": "Te invito a explorar mis proyectos y a conocerme un poco más",
-    "quote": "\"Las que conducen y arrastran al mundo no son las máquinas, sino las ideas\" (Victor Hugo)"
+  "timelineSection": {
+    "title": "Cronología",
+    "description": "A continuación se muestra una cronología detallada de mi formación académica y experiencia profesional:"
   },
 
-   "timelineSection": {
-    "title": "Timeline",
-    "description":  "A continuación, presento una cronología detallada de mi formación académica y experiencia profesional:"
-  },
-
-
-  
   "timetableSection": [
     {
       "status": "Voluntariado",
       "icon": "pi pi-briefcase",
       "color": "#673AB7",
       "Organization": "TugOnn Schweiz",
-      "Type": "Empleo",
+      "Type": "Trabajo",
       "Beggining": "Octubre - 2025",
-      "Ending": "Actual",
-      "Title": "Voluntaria en página web de TugOnn"
-    },
-    {
-      "status": "Estudio",
-      "icon": "pi pi-graduation-cap",
-      "color": "#9C27B0",
-      "Organization": "UCAM - Universidad Católica de Murcia",
-      "Type": "Estudio",
-      "Beggining": "Enero - 2025",
-      "Ending": "Noviembre - 2025",
-      "Title": "Master en Programación y Desarrollo de Aplicaciones Java"
-    },
-    {
-      "status": "Estudio",
-      "icon": "pi pi-graduation-cap",
-      "color": "#9C27B0",
-      "Organization": "Academia Postal",
-      "Type": "Estudio",
-      "Beggining": "Mayo - 2024",
-      "Ending": "Septiembre - 2024",
-      "Title": "Certificación en Desarrollo de Aplicaciones Web IFD0210"
-    },
-    {
-      "status": "Empleo",
-      "icon": "pi pi-briefcase",
-      "color": "#673AB7",
-      "Organization": "Grupo Teleco",
-      "Type": "Empleo",
-      "Beggining": "Septiembre - 2024",
-      "Ending": "Septiembre - 2024",
-      "Title": "Practicante Desarrollo Web"
-    },
-    {
-      "status": "Empleo",
-      "icon": "pi pi-briefcase",
-      "color": "#673AB7",
-      "Organization": "ABCR Laboratorios",
-      "Beggining": "Enero - 2018",
-      "Ending": "Febrero - 2024",
-      "Title": "Administrativo de Compras"
-    },
-    {
-      "status": "Estudio",
-      "icon": "pi pi-graduation-cap",
-      "color": "#9C27B0",
-      "Organization": "Escuela Oficial de Idiomas",
-      "Beggining": "Enero - 2018",
-      "Ending": "Julio - 2023",
-      "Title": "Curso Aprendizaje Idioma Inglés"
-    },
-    {
-      "status": "Empleo",
-      "icon": "pi pi-briefcase",
-      "color": "#673AB7",
-      "Beggining": "Marzo 2013",
-      "Ending": "Enero - 2017",
-      "Title": "Gerente de Compras Internacionales"
-    },
-    {
-      "status": "Empleo",
-      "icon": "pi pi-briefcase",
-      "color": "#673AB7",
-      "Organization": "Corporación Delcop",
-      "Beggining": "Marzo - 2011",
-      "Ending": "Febrero - 2013",
-      "Title": "Coordinador de Logística y Compras Internacionales"
-    },
-    {
-      "status": "Estudio",
-      "icon": "pi pi-graduation-cap",
-      "color": "#9C27B0",
-      "Organization": "Universidad Marítima del Caribe",
-      "Beggining": "Octubre 2005",
-      "Ending": "Julio 2010",
-      "Title": "Grado en Administración Mención Comercio Internacional con equivalencia de título en España"
+      "Ending": "Presente",
+      "Title": "Voluntaria en la página web de TugOnn"
     }
-  ]
+  ],
 
-  
+  "projectsSection": {
+    "title": "Proyectos",
+    "projects": [
+      {
+        "title": "Calculadora en Kotlin",
+        "technologies": ["Kotlin", "Android Studio"],
+        "repository": "https://github.com/Eliana663/Calculadora-Avanzada",
+        "description": "Esta es una calculadora básica desarrollada desde cero con Kotlin, diseñada como parte de mi proceso de aprendizaje. Permite realizar operaciones aritméticas simples y complejas con una interfaz limpia y responsiva.",
+        "images": ["ImagenCalculadoraAvanzada.png"]
+      },
+      {
+        "title": "Página web en React",
+        "technologies": ["React", "HTML", "CSS"],
+        "repository": "https://github.com/Eliana663/WebsiteEliana/tree/master",
+        "description": "Este es el código de la página web que estás viendo ahora sobre mi perfil.",
+        "images": ["ProyectoPaginaWeb.png"]
+      },
+      {
+        "title": "StayKeto - Proyecto de Máster",
+        "technologies": ["React", "HTML", "CSS", "Spring Boot", "Java", "JPA", "Spring Security", "MySQL"],
+        "repository": null,
+        "description": "StayKeto es una aplicación web que estoy diseñando para ayudar a los usuarios a saber si están en cetosis y llevar un control visual de su progreso. Está enfocada en personas que siguen la dieta cetogénica y desean monitorear su estado metabólico, alimentación y métricas personales (peso, medidas, etc.).",
+        "images": ["IniciarSesion.png","Macros.png","RegistrodeHabitos.png","Buscador.png","CalculadoraKeto.png"]
+      }
+    ],
+    "technologies": "Tecnologías utilizadas",
+    "repository": "Repositorio",
+    "description": "Descripción",
+    "images": "Imágenes",
+    "underDevelopment": "En desarrollo"
+  }
 }
-

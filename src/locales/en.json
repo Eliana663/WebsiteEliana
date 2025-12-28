@@ -5,6 +5,14 @@
   "timeline": "Timeline",
   "projects": "Projects",
 
+  "homeSection": {
+    "title": "Eliana Torres",
+    "p1": "Interested in gaining experience in the IT field",
+    "p2": "✨ Learning Java, Kotlin, and React, combining organization and creativity to build useful solutions. 💻",
+    "p3": "I invite you to explore my projects and get to know me a bit more",
+    "quote": "\"Those who lead and move the world are not machines, but ideas\" (Victor Hugo)"
+  },
+
   "aboutSection": {
     "title": "About me...",
     "intro": [
@@ -36,14 +44,6 @@
     ]
   },
 
-  "homeSection": {
-    "title": "Eliana Torres",
-    "p1": "Interested in gaining experience in the IT field",
-    "p2": "✨ Learning Java, Kotlin, and React, combining organization and creativity to build useful solutions. 💻",
-    "p3": "I invite you to explore my projects and get to know me a bit more",
-    "quote": "\"Those who lead and move the world are not machines, but ideas\" (Victor Hugo)"
-  },
-
   "timelineSection": {
     "title": "Timeline",
     "description": "Below is a detailed timeline of my academic background and professional experience:"
@@ -59,80 +59,38 @@
       "Beggining": "October - 2025",
       "Ending": "Present",
       "Title": "Volunteer on TugOnn website"
-    },
-    {
-      "status": "Study",
-      "icon": "pi pi-graduation-cap",
-      "color": "#9C27B0",
-      "Organization": "UCAM - Universidad Católica de Murcia",
-      "Type": "Study",
-      "Beggining": "January - 2025",
-      "Ending": "November - 2025",
-      "Title": "Master in Programming and Java Application Development"
-    },
-    {
-      "status": "Study",
-      "icon": "pi pi-graduation-cap",
-      "color": "#9C27B0",
-      "Organization": "Academia Postal",
-      "Type": "Study",
-      "Beggining": "May - 2024",
-      "Ending": "September - 2024",
-      "Title": "Web Application Development Certification IFD0210"
-    },
-    {
-      "status": "Job",
-      "icon": "pi pi-briefcase",
-      "color": "#673AB7",
-      "Organization": "Grupo Teleco",
-      "Type": "Job",
-      "Beggining": "September - 2024",
-      "Ending": "September - 2024",
-      "Title": "Web Development Intern"
-    },
-    {
-      "status": "Job",
-      "icon": "pi pi-briefcase",
-      "color": "#673AB7",
-      "Organization": "ABCR Laboratorios",
-      "Beggining": "January - 2018",
-      "Ending": "February - 2024",
-      "Title": "Purchasing Administrator"
-    },
-    {
-      "status": "Study",
-      "icon": "pi pi-graduation-cap",
-      "color": "#9C27B0",
-      "Organization": "Escuela Oficial de Idiomas",
-      "Beggining": "January - 2018",
-      "Ending": "July - 2023",
-      "Title": "English Language Learning Course"
-    },
-    {
-      "status": "Job",
-      "icon": "pi pi-briefcase",
-      "color": "#673AB7",
-      "Beggining": "March 2013",
-      "Ending": "January - 2017",
-      "Title": "International Purchasing Manager"
-    },
-    {
-      "status": "Job",
-      "icon": "pi pi-briefcase",
-      "color": "#673AB7",
-      "Organization": "Corporación Delcop",
-      "Beggining": "March - 2011",
-      "Ending": "February - 2013",
-      "Title": "Logistics and International Purchasing Coordinator"
-    },
-    {
-      "status": "Study",
-      "icon": "pi pi-graduation-cap",
-      "color": "#9C27B0",
-      "Organization": "Universidad Marítima del Caribe",
-      "Beggining": "October 2005",
-      "Ending": "July 2010",
-      "Title": "Bachelor in Business Administration with specialization in International Trade, officially recognized in Spain"
     }
-  ]
+  ],
+
+  "projectsSection": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Kotlin Calculator",
+        "technologies": ["Kotlin", "Android Studio"],
+        "repository": "https://github.com/Eliana663/Calculadora-Avanzada",
+        "description": "This is a basic calculator developed from scratch with Kotlin, designed as part of my learning process. It can perform simple and complex arithmetic operations with a clean and responsive interface.",
+        "images": ["ImagenCalculadoraAvanzada.png"]
+      },
+      {
+        "title": "React Web Page",
+        "technologies": ["React", "HTML", "CSS"],
+        "repository": "https://github.com/Eliana663/WebsiteEliana/tree/master",
+        "description": "This is the code of the web page you are currently seeing about my profile.",
+        "images": ["ProyectoPaginaWeb.png"]
+      },
+      {
+        "title": "StayKeto - Master’s Project",
+        "technologies": ["React", "HTML", "CSS", "Spring Boot", "Java", "JPA", "Spring Security", "MySQL"],
+        "repository": null,
+        "description": "StayKeto is a web application I am designing to help users track whether they are in ketosis and visualize their progress. It is focused on people following the ketogenic diet and wanting to monitor their metabolic state, diet, and personal metrics (weight, measurements, etc.).",
+        "images": ["IniciarSesion.png","Macros.png","RegistrodeHabitos.png","Buscador.png","CalculadoraKeto.png"]
+      }
+    ],
+    "technologies": "Technologies used",
+    "repository": "Repository",
+    "description": "Description",
+    "images": "Images",
+    "underDevelopment": "Under development"
+  }
 }

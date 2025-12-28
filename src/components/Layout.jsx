@@ -45,9 +45,26 @@ const Layout = () => {
               <li className="nav-item">
                 <a className="nav-link" href="/projects" style={{ fontSize: '30px' }}>{t.projects}</a>
               </li>
-              <li className="nav-item">
-                <button onClick={toggleLang} style={{ fontSize: '20px', marginLeft: '1rem' }}>
-                  {lang === "es" ? "EN" : "ES"}
+              <li className="nav-item d-flex align-items-center">
+                <button
+                  onClick={toggleLang}
+                  style={{
+                    fontSize: '20px',
+                    marginLeft: '1rem',
+                    padding: '0.3rem 0.8rem',
+                    borderRadius: '5px',
+                    border: 'none',
+                    cursor: 'pointer',
+                    backgroundColor: '#ffcc00', 
+                    color: '#252850',
+                    fontWeight: '600',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '5px'
+                  }}
+                  title="Change language"
+                >
+                  🌎 {lang === "es" ? "ES" : "EN"}
                 </button>
               </li>
             </ul>

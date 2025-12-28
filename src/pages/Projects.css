@@ -6,9 +6,13 @@
 }
 
 .proyecto-img {
-  width: 250px;        
+  width: 300px;        
   height: auto;        
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   object-fit: cover;   
+}
+
+.proyecto-img-wide {
+  width: 500px; 
 }
