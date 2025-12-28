@@ -59,7 +59,83 @@
       "Beggining": "October - 2025",
       "Ending": "Present",
       "Title": "Volunteer on TugOnn website"
+    },
+    {
+      "status": "Study",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "UCAM - Universidad Católica de Murcia",
+      "Type": "Study",
+      "Beggining": "January - 2025",
+      "Ending": "November - 2025",
+      "Title": "Master in Programming and Java Application Development"
+    },
+    {
+      "status": "Study",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Academia Postal",
+      "Type": "Study",
+      "Beggining": "May - 2024",
+      "Ending": "September - 2024",
+      "Title": "Web Application Development Certification IFD0210"
+    },
+    {
+      "status": "Job",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "Grupo Teleco",
+      "Type": "Job",
+      "Beggining": "September - 2024",
+      "Ending": "September - 2024",
+      "Title": "Web Development Intern"
+    },
+    {
+      "status": "Job",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "ABCR Laboratorios",
+      "Beggining": "January - 2018",
+      "Ending": "February - 2024",
+      "Title": "Purchasing Administrator"
+    },
+    {
+      "status": "Study",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Escuela Oficial de Idiomas",
+      "Beggining": "January - 2018",
+      "Ending": "July - 2023",
+      "Title": "English Language Learning Course"
+    },
+    {
+      "status": "Job",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Beggining": "March 2013",
+      "Ending": "January - 2017",
+      "Title": "International Purchasing Manager"
+    },
+    {
+      "status": "Job",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "Corporación Delcop",
+      "Beggining": "March - 2011",
+      "Ending": "February - 2013",
+      "Title": "Logistics and International Purchasing Coordinator"
+    },
+    {
+      "status": "Study",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Universidad Marítima del Caribe",
+      "Beggining": "October 2005",
+      "Ending": "July 2010",
+      "Title": "Bachelor in Business Administration with specialization in International Trade, officially recognized in Spain"
     }
+
+
   ],
 
   "projectsSection": {
