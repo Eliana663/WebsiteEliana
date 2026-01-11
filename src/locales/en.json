@@ -141,6 +141,16 @@
   "projectsSection": {
     "title": "Projects",
     "projects": [
+
+      {
+        "title": "StayKeto - Master’s Project",
+        "technologies": ["React", "HTML", "CSS", "Spring Boot", "Java", "JPA", "Spring Security", "MySQL"],
+        "repository": ["https://github.com/Eliana663/StayKeto", "https://github.com/Eliana663/StayKetoReact"],
+        "demo": "https://stayketo.netlify.app/",
+        "description": "StayKeto is an advanced nutritional platform developed with React, Java Spring Boot, and MySQL. It features a professional architecture deployed across Google Cloud and Netlify.",
+        "images": ["IniciarSesion.png","Macros.png","RegistrodeHabitos.png","Buscador.png","CalculadoraKeto.png"]
+      },
+
       {
         "title": "Kotlin Calculator",
         "technologies": ["Kotlin", "Android Studio"],
@@ -148,23 +158,20 @@
         "description": "This is a basic calculator developed from scratch with Kotlin, designed as part of my learning process. It can perform simple and complex arithmetic operations with a clean and responsive interface.",
         "images": ["ImagenCalculadoraAvanzada.png"]
       },
+      
       {
         "title": "React Web Page",
         "technologies": ["React", "HTML", "CSS"],
         "repository": "https://github.com/Eliana663/WebsiteEliana/tree/master",
-        "description": "This is the code of the web page you are currently seeing about my profile.",
+        "demo": "https://eliana-torres-profile.netlify.app/",
+        "description": "My personal portfolio built with React, focusing on a modular component architecture and internationalization to showcase my growth as a Full-Stack Developer.",
         "images": ["ProyectoPaginaWeb.png"]
-      },
-      {
-        "title": "StayKeto - Master’s Project",
-        "technologies": ["React", "HTML", "CSS", "Spring Boot", "Java", "JPA", "Spring Security", "MySQL"],
-        "repository": null,
-        "description": "StayKeto is a web application I am designing to help users track whether they are in ketosis and visualize their progress. It is focused on people following the ketogenic diet and wanting to monitor their metabolic state, diet, and personal metrics (weight, measurements, etc.).",
-        "images": ["IniciarSesion.png","Macros.png","RegistrodeHabitos.png","Buscador.png","CalculadoraKeto.png"]
       }
+      
     ],
-    "technologies": "Technologies used",
+    "technologies": "Implemented Technologies",
     "repository": "Repository",
+    "demo": "Demo",
     "description": "Description",
     "images": "Images",
     "underDevelopment": "Under development"
