@@ -59,12 +59,96 @@
       "Beggining": "Octubre - 2025",
       "Ending": "Presente",
       "Title": "Voluntaria en la página web de TugOnn"
+    },
+    {
+      "status": "Estudio",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "UCAM - Universidad Católica de Murcia",
+      "Type": "Estudio",
+      "Beggining": "Enero - 2025",
+      "Ending": "Noviembre - 2025",
+      "Title": "Master en Programación y Desarrollo de Aplicaciones Java"
+    },
+    {
+      "status": "Estudio",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Academia Postal",
+      "Type": "Estudio",
+      "Beggining": "Mayo - 2024",
+      "Ending": "Septiembre - 2024",
+      "Title": "Certificación en Desarrollo de Aplicaciones Web IFD0210"
+    },
+    {
+      "status": "Empleo",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "Grupo Teleco",
+      "Type": "Empleo",
+      "Beggining": "Septiembre - 2024",
+      "Ending": "Septiembre - 2024",
+      "Title": "Practicante Desarrollo Web"
+    },
+    {
+      "status": "Empleo",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "ABCR Laboratorios",
+      "Beggining": "Enero - 2018",
+      "Ending": "Febrero - 2024",
+      "Title": "Administrativo de Compras"
+    },
+    {
+      "status": "Estudio",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Escuela Oficial de Idiomas",
+      "Beggining": "Enero - 2018",
+      "Ending": "Julio - 2023",
+      "Title": "Curso Aprendizaje Idioma Inglés"
+    },
+    {
+      "status": "Empleo",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Beggining": "Marzo 2013",
+      "Ending": "Enero - 2017",
+      "Title": "Gerente de Compras Internacionales"
+    },
+    {
+      "status": "Empleo",
+      "icon": "pi pi-briefcase",
+      "color": "#673AB7",
+      "Organization": "Corporación Delcop",
+      "Beggining": "Marzo - 2011",
+      "Ending": "Febrero - 2013",
+      "Title": "Coordinador de Logística y Compras Internacionales"
+    },
+    {
+      "status": "Estudio",
+      "icon": "pi pi-graduation-cap",
+      "color": "#9C27B0",
+      "Organization": "Universidad Marítima del Caribe",
+      "Beggining": "Octubre 2005",
+      "Ending": "Julio 2010",
+      "Title": "Grado en Administración Mención Comercio Internacional con equivalencia de título en España"
     }
   ],
 
   "projectsSection": {
     "title": "Proyectos",
     "projects": [
+
+       {
+        "title": "StayKeto - Proyecto de Máster",
+        "technologies": ["React", "HTML", "CSS", "Spring Boot", "Java", "JPA", "Spring Security", "MySQL"],
+        "repository": ["https://github.com/Eliana663/StayKeto", "https://github.com/Eliana663/StayKetoReact"],
+        "demo": "https://stayketo.netlify.app/",
+        "description": "StayKeto es una plataforma nutricional avanzada desarrollada con React, Java Spring Boot y MySQL. Implementa una arquitectura profesional desplegada en Google Cloud y Netlify.",
+        "images": ["IniciarSesion.png","Macros.png","RegistrodeHabitos.png","Buscador.png","CalculadoraKeto.png"]
+      },
+
       {
         "title": "Calculadora en Kotlin",
         "technologies": ["Kotlin", "Android Studio"],
@@ -72,23 +156,20 @@
         "description": "Esta es una calculadora básica desarrollada desde cero con Kotlin, diseñada como parte de mi proceso de aprendizaje. Permite realizar operaciones aritméticas simples y complejas con una interfaz limpia y responsiva.",
         "images": ["ImagenCalculadoraAvanzada.png"]
       },
+
       {
         "title": "Página web en React",
         "technologies": ["React", "HTML", "CSS"],
         "repository": "https://github.com/Eliana663/WebsiteEliana/tree/master",
+        "demo": "https://eliana-torres-profile.netlify.app/",
         "description": "Este es el código de la página web que estás viendo ahora sobre mi perfil.",
         "images": ["ProyectoPaginaWeb.png"]
-      },
-      {
-        "title": "StayKeto - Proyecto de Máster",
-        "technologies": ["React", "HTML", "CSS", "Spring Boot", "Java", "JPA", "Spring Security", "MySQL"],
-        "repository": null,
-        "description": "StayKeto es una aplicación web que estoy diseñando para ayudar a los usuarios a saber si están en cetosis y llevar un control visual de su progreso. Está enfocada en personas que siguen la dieta cetogénica y desean monitorear su estado metabólico, alimentación y métricas personales (peso, medidas, etc.).",
-        "images": ["IniciarSesion.png","Macros.png","RegistrodeHabitos.png","Buscador.png","CalculadoraKeto.png"]
       }
+     
     ],
     "technologies": "Tecnologías utilizadas",
     "repository": "Repositorio",
+    "DEMO": "DEMO",
     "description": "Descripción",
     "images": "Imágenes",
     "underDevelopment": "En desarrollo"
