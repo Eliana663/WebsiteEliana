@@ -148,7 +148,7 @@
         "repository": ["https://github.com/Eliana663/StayKeto", "https://github.com/Eliana663/StayKetoReact"],
         "demo": "https://stayketo.netlify.app/",
         "description": "StayKeto is an advanced nutritional platform developed with React, Java Spring Boot, and MySQL. It features a professional architecture deployed across Google Cloud and Netlify.",
-        "images": ["IniciarSesion.png","Macros.png","RegistrodeHabitos.png","Buscador.png","CalculadoraKeto.png"]
+        "images": ["Architecture.jpg", "IniciarSesion.png","Macros.png","RegistrodeHabitos.png","Buscador.png","CalculadoraKeto.png"]
       },
 
       {
