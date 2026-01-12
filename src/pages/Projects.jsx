@@ -6,6 +6,7 @@ import registroImg from '../assets/img/RegistrodeHabitos.png';
 import paginaWebImg from '../assets/img/ProyectoPaginaWeb.png';
 import buscadorAlim from '../assets/img/Buscador.png';
 import calculadoraKeto from '../assets/img/CalculadoraKeto.png';
+import architecture from '../assets/img/Architecture.jpg'
 import './Projects.css';
 
 import esJson from '../locales/es.json';
@@ -16,7 +17,6 @@ export const Projects = () => {
   const { lang } = useLanguage();
   const data = lang === 'es' ? esJson : enJson;
 
-  // Mapa de imágenes (se mantiene igual)
   const imagesMap = {
     'ImagenCalculadoraAvanzada.png': calcImg,
     'IniciarSesion.png': inicioImg,
@@ -24,7 +24,9 @@ export const Projects = () => {
     'RegistrodeHabitos.png': registroImg,
     'ProyectoPaginaWeb.png': paginaWebImg,
     'Buscador.png': buscadorAlim,
-    'CalculadoraKeto.png': calculadoraKeto
+    'CalculadoraKeto.png': calculadoraKeto,
+    'Architecture.jpg': architecture
+
   };
 
   return (
